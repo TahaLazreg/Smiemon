@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="start|top">
+
+        <ImageView
+            android:id="@+id/sprite"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/charizard" />
+
+        <TextView
+            android:id="@+id/PokeEntryId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginStart="10dp"
+            android:background="@color/white"
+            android:fontFamily="@font/pixelmix"
+            android:gravity="left|center_vertical"
+            android:text="TextView"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/PokeEntryName"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/pixelmix"
+            android:gravity="right|center"
+            android:text="TextView"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
